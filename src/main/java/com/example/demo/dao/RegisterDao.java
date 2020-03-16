@@ -1,25 +1,11 @@
 package com.example.demo.dao;
-import oracle.jdbc.OracleTypes;
-import java.sql.SQLType;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.TransactionStatus;
-import org.springframework.transaction.support.DefaultTransactionDefinition;
-
-import com.example.demo.AlertMessage.infrastructure.ProcedureBuilder;
-import com.example.demo.AlertMessage.infrastructure.StoreProcParameters;
-import com.example.demo.pojos.Details;
-
-import oracle.jdbc.OracleTypes;
 
 @Repository
 public class RegisterDao implements RegisterInterface {

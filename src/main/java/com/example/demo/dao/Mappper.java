@@ -4,9 +4,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
-
-import com.example.demo.pojos.Details;
-
 /**
  *
  * @author LENOVO
